@@ -11,13 +11,16 @@ This guide details how to implement and run a Python-based battery monitor scrip
 ## Step 1: Install Python on Your System
 
 If Python is not already installed on your computer, follow these steps:
+
 1.1 Download Python
   1.	Visit the official Python website.
   2.	Download the latest version of Python.
+
 1.2 Install Python
   1.	Run the Python installer that you downloaded.
   2.	**Important:** On the first installation screen, check the box that says, "**Add Python to PATH**". This is crucial for running Python from the Command Prompt.
   3.	Click "**Install Now**" and wait for the installation to complete.
+
 1.3 Verify Python Installation
   1.	Open Command Prompt:
      
