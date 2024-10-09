@@ -31,18 +31,23 @@ If Python is not already installed on your computer, follow these steps:
 ## Step 2: Install Required Libraries
 
 To run the battery monitor script, you need two external libraries: **psutil** and **win10toast**.
+
 2.1 Open Command Prompt
   •	Press Win + R, type cmd, and press Enter.
+
 2.2 Install the Libraries
-  1.	Install psutil for monitoring battery and system power              information:
-        **pip install psutil*
-  2.	Install win10toast for displaying Windows notifications:
-        **pip install win10toast*
+  1.	Install psutil for monitoring battery and system power information:
+
+    	  *pip install psutil*
+  3.	Install win10toast for displaying Windows notifications:
+
+    	  *pip install win10toast*
 
 ## Step 3: Create the battery_monitor.pyw Script and battery_monitor.log
 3.1 Choose a Directory for Your Script
   1.	Open File Explorer:
-  o	Navigate to your **Documents** folder (e.g. C:\Users\YourUsername\Documents).
+  
+    o	Navigate to your **Documents** folder (e.g. C:\Users\YourUsername\Documents).
   2.	Create a New Folder:
   o	Right-click in the **Documents** folder and select New > Folder.   Name it BatteryMonitor.
   3.	**Create a text file called battery_monitor.log**. 
