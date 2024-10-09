@@ -16,17 +16,20 @@ If Python is not already installed on your computer, follow these steps:
   2.	Download the latest version of Python.
 1.2 Install Python
   1.	Run the Python installer that you downloaded.
-  2.	**Important:** On the first installation screen, check the box          that says, "Add Python to PATH". This is crucial for running        Python from the Command Prompt.
-  3.	Click "Install Now" and wait for the installation to complete.
+  2.	**Important:** On the first installation screen, check the box that says, "**Add Python to PATH**". This is crucial for running Python from the Command Prompt.
+  3.	Click "**Install Now**" and wait for the installation to complete.
 1.3 Verify Python Installation
   1.	Open Command Prompt:
         o	Press Win + R, type cmd, and press Enter.
   2.	Check Python Version:
-      **python --version*
-        o	This should return something like Python 3.11.x.
-  3.	Check pip Installation:
-      **pip --version*
-        o	This verifies that pip, Python’s package installer, is              installed.
+
+    o **python --version*
+      
+  o This should return something like Python 3.11.x.
+  4.	Check pip Installation:
+  
+    o  *pip --version*      
+  This verifies that pip, Python’s package installer, is installed.
 
 ## Step 2: Install Required Libraries
 
