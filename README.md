@@ -21,7 +21,7 @@ If Python is not already installed on your computer, follow these steps:
 1.3 Verify Python Installation
   1.	Open Command Prompt:
      
-        o	Press Win + R, type cmd, and press Enter.
+        o	Press **Win** + **R**, type **cmd**, and press Enter.
   3.	Check Python Version:
 
     python --version
@@ -47,7 +47,7 @@ To run the battery monitor script, you need two external libraries: **psutil** a
 
      pip install win10toast
 
-## Step 3: Create the *battery_monitor.pyw* Script and **battery_monitor.log**
+## Step 3: Create the *battery_monitor.pyw* Script and *battery_monitor.log*
 3.1 Choose a Directory for Your Script
   1.	Open File Explorer:
   
@@ -66,19 +66,19 @@ Now that you've created the script, you can run it from Command Prompt.
 
 4.1 Open Command Prompt
   
-  1.	Press Win + R, type cmd, and press Enter.
+  1.	Press **Win** + **R**, type **cmd**, and press Enter.
 
 4.2 Navigate to the Script Directory
   
   1.	In the Command Prompt window, use the cd command to navigate to the folder where you saved the script:
 
-    	     *cd C:\Users\YourUsername\Documents\BatteryMonitor*
+    	     cd C:\Users\YourUsername\Documents\BatteryMonitor
 
 4.3 Run the Script
   
   1.	Once you’re in the correct directory, run the script with:
 
-    *pythonw battery_monitor.pyw*
+    pythonw battery_monitor.pyw
 4.4 Verify Notifications
   
   1.	**Charger Connection:**
@@ -97,7 +97,7 @@ Now that you've created the script, you can run it from Command Prompt.
 
 4.5 Check Log File
 
-The script logs events in a file called battery_monitor.log. To verify that the script is running as expected:
+The script logs events in a file called **battery_monitor.log**. To verify that the script is running as expected:
   1.	Navigate to *C:\Users\YourUsername\Documents\BatteryMonitor*.
   2.	Open the **battery_monitor.log** file using a text editor (e.g., Notepad).
   3.	Check the log for messages indicating that the script started and notifications were sent.
