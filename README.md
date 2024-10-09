@@ -6,6 +6,7 @@ This guide details how to implement and run a Python-based battery monitor scrip
 1.	**Monitors your laptop's battery status** to detect when the charger is connected or disconnected and when the battery is fully charged.
 2.	**Displays pop-up notifications** for these events.
 3.	**Runs the script manually via Command Prompt**.
+4.	**Logs** changes in battery status.
 
 ## Step 1: Install Python on Your System
 
