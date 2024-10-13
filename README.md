@@ -1,4 +1,4 @@
-# How to Implement and Run the Battery Monitor Script
+# How to Implement the Battery Monitor
 
 ## Overview
 
