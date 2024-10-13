@@ -1,4 +1,4 @@
-# How to Implement the Battery Monitor
+# How to Implement and Automate the Battery Monitor
 
 ## Overview
 
