@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide details how to implement and run a Python-based battery monitor script that:
+This guide details how to implement Battery Monitor, a program that:
 1.	**Monitors your laptop's battery status** to detect when the charger is connected or disconnected and when the battery is fully charged.
 2.	**Displays pop-up notifications** for these events.
 3.	**Runs the script manually via Command Prompt**.
@@ -65,26 +65,45 @@ To run the battery monitor script, you need two external libraries: **psutil** a
         o	Remember to include the **.log** extension or the script will not work.
   4.	Save the **battery_monitor.pyw** file here.
 
-## Step 4: Run the Script Manually in Command Prompt
+## Step 4: Edit the battery_monitor.vbs File
 
-Now that you've created the script, you can run it from Command Prompt.
+Right-click on the **battery_monitor.vbs** file.
 
-4.1 Open Command Prompt
-  
-  1.	Press **Win** + **R**, type **cmd**, and press Enter.
+Select *Edit* from the context menu. This will open the file in Notepad.
 
-4.2 Navigate to the Script Directory
-  
-  1.	In the Command Prompt window, use the cd command to navigate to the folder where you saved the script:
+Find the following line in the script:
 
-    	     cd C:\Users\YourUsername\Documents\BatteryMonitor
+**WshShell.CurrentDirectory = "C:\path\to\your\BatteryMonitor"**
 
-4.3 Run the Script
-  
-  1.	Once you’re in the correct directory, run the script with:
+Replace **"C:\path\to\your\BatteryMonitor"** with the actual path where your Battery Monitor (**battery_monitor.pyw**) is located.
 
-    pythonw battery_monitor.pyw
-4.4 Verify Notifications
+Save the File:
+
+## Step 5: Test the battery_monitor.vbs File
+
+Double-click the **battery_monitor.vbs** file to run it.
+
+Confirm that the Battery Monitor starts by connecting your charger. A toaster notification should pop up on the bottom right of your screen.
+
+If the Battery Monitor doesn't start, double-check that the file path you entered in Step 1 is correct.
+
+## Step 6: Move/Copy the VBS File to the Startup Folder
+
+To ensure that the Battery Monitor runs automatically every time you log in to your PC, you need to place the **battery_monitor.vbs** file in the Startup folder.
+
+To open the Startup Folder, press **Win** + **R**, type **shell:startup**, and press Enter.
+
+This will open the Startup folder, where you can place programs or scripts that you want to run automatically at login.
+
+Move/Copy the **battery_monitor.vbs** file here
+
+## Step 7: Verify Automatic Startup
+
+Restart Your Computer.
+
+After logging in, the Battery Monitor should start without any manual intervention and without showing a Command Prompt window.
+
+## Step 8: Verify Notifications
   
   1.	**Charger Connection:**
 
@@ -100,28 +119,32 @@ Now that you've created the script, you can run it from Command Prompt.
 
     	  o	If the battery level drops below 20%, you should receive a low battery notification.
 
-4.5 Check Log File
+## Step 9: Check Log File
 
-The script logs events in a file called **battery_monitor.log**. To verify that the script is running as expected:
-  1.	Navigate to *C:\Users\YourUsername\Documents\BatteryMonitor*.
-  2.	Open the **battery_monitor.log** file using a text editor (e.g., Notepad).
-  3.	Check the log for messages indicating that the script started and notifications were sent.
+The script logs events in the **battery_monitor.log** file. To verify that the script is running as expected.
 
-## Step 5: Troubleshooting
+Navigate to it and open it using a text editor (e.g., Notepad).
+
+Check the log for messages indicating that the script started and notifications were sent.
+
+## Step 10: Troubleshooting
 
 If the script doesn’t behave as expected, here are some common issues and how to resolve them:
+
   1.	No Notifications:
-        o	Ensure that Windows Focus Assist is turned off or                   configured to allow notifications.
-        o	Check the log file (battery_monitor.log) for any errors.
+
+    	  o	Ensure that Windows Focus Assist is turned off or configured to allow notifications.
+    	
+        o	Check the log file (**battery_monitor.log**) for any errors.
+    	
   2.	Script Not Running:
-        o	Double-check the path you used to run the script. Make              sure pythonw is installed and you are pointing to the               correct Python executable.
-        o	Run the script with python (instead of pythonw) to see              any errors printed in the Command Prompt.
-  3.	Log File Not Being Created:
-        o	Ensure that the script has permission to write to the               Documents\BatteryMonitor folder.
-
-## Conclusion
-
-By following this guide, you have implemented the battery_monitor.pyw program, which monitors your laptop's battery status and provides notifications when the charger is connected, disconnected, or when the battery is full. You have also learned how to run the script manually through **Command Prompt**.
-For regular use, you can run the script whenever you need to monitor your battery status.
+     
+        o	Double-check the path you used to run the script. Make sure pythonw is installed and you are pointing to the correct Python executable.
+    	
+        o	Run the script with python (instead of pythonw) by editing the **battery_monitor.vbs** file to see any errors printed in the Command Prompt.
+    	
+  4.	Log File Not Being Created:
+     
+        o	Ensure that the script has permission to write to the Documents\BatteryMonitor folder.
 
 
