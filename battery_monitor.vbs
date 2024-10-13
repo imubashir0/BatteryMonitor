@@ -1,7 +1,7 @@
 Set WshShell = CreateObject("WScript.Shell")
 
 
-WshShell.CurrentDirectory = "C:\imubashir0\Battery_Monitor"
+WshShell.CurrentDirectory = "C:\path\to\your\BatteryMonitor"
 
 
 WshShell.Run "pythonw battery_monitor.pyw", 0, False
