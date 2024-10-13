@@ -1,5 +1,9 @@
 # How to Implement and Automate the Battery Monitor
 
+! [Battery Monitor Notification](./assets/battery_monitor_notification.JPG)
+
+! [Battery Monitor Log File](./assets/battery_monitor_logs.JPG)
+
 ## Overview
 
 This guide details how to implement Battery Monitor, a program that:
