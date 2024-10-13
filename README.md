@@ -1,8 +1,8 @@
 # How to Implement and Automate the Battery Monitor
 
-! [Battery Monitor Notification](https://github.com/imubashir0/BatteryMonitor/blob/main/assets/battery_monitor_notification.JPG?raw=true)
+! [Battery Monitor Notification](https://github.com/imubashir0/BatteryMonitor/blob/main/assets/battery_monitor_notification.JPG)
 
-! [Battery Monitor Log File](https://github.com/imubashir0/BatteryMonitor/blob/main/assets/battery_monitor_logs.JPG?raw=true)
+! [Battery Monitor Log File](https://github.com/imubashir0/BatteryMonitor/blob/main/assets/battery_monitor_logs.JPG)
 
 ## Overview
 
