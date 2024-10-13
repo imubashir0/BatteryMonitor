@@ -51,7 +51,7 @@ To run the battery monitor script, you need two external libraries: **psutil** a
 
      pip install win10toast
 
-## Step 3: Create the *battery_monitor.pyw* Script and *battery_monitor.log*
+## Step 3: Create the *battery_monitor.log* file
 3.1 Choose a Directory for Your Script
  
   1.	Open File Explorer:
@@ -63,7 +63,7 @@ To run the battery monitor script, you need two external libraries: **psutil** a
   3.	**Create a text file called battery_monitor.log**. 
   
         o	Remember to include the **.log** extension or the script will not work.
-  4.	Save the **battery_monitor.pyw** file here.
+  4.	Save the **battery_monitor.pyw** and **battery_monitor.vbs** files here if you wish.
 
 ## Step 4: Edit the battery_monitor.vbs File
 
