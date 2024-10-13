@@ -77,7 +77,7 @@ Find the following line in the script:
 
 Replace **"C:\path\to\your\BatteryMonitor"** with the actual path where your Battery Monitor (**battery_monitor.pyw**) is located.
 
-Save the File:
+Save the File.
 
 ## Step 5: Test the battery_monitor.vbs File
 
